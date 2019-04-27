@@ -1,0 +1,523 @@
+07:58:26	 From Minchiuan Gao : 大家早呀
+07:58:39	 From 杨诗吟 : 老师早呀~
+07:58:46	 From 孔庆超_上海 : 早啊高老师
+07:59:02	 From 简畅丽 : 老师早，各位早
+07:59:22	 From Minchiuan Gao : 大家早～
+08:01:09	 From Minchiuan Gao : 咱们稍微等等别的同学
+08:01:09	 From Lipengyan : Go
+08:01:13	 From Minchiuan Gao : ～
+08:01:17	 From Lipengyan : hahaha
+08:02:01	 From Ruixiang Ma : Hello  everybody everyone
+08:02:02	 From 余亦阳 : 老师早  大家早
+08:03:14	 From Chenn3 : \
+08:03:19	 From Chenn3 : \ao
+08:03:22	 From Chenn3 : 早
+08:03:25	 From KwoIValIYYpLL/GzMuC/Gg== : 1
+08:03:37	 From Lipengyan : 感觉有很多新面孔呀
+08:03:51	 From Minchiuan Gao : 哈哈
+08:05:13	 From xiaoyajing001 : 大家早上好
+08:05:57	 From LI HUA : 早
+08:06:03	 From HY : good morning
+08:06:15	 From yu ma : 大家早上好
+08:06:23	 From Christopher_luole : good morning
+08:07:44	 From 李鹏彦 : 第三周优秀作业怎么没更新了，我都不知道抄谁的了~
+08:07:52	 From Minchiuan Gao : 哈哈
+08:07:53	 From Ruixiang Ma : 你们预习的怎么样了
+08:08:09	 From Minchiuan Gao : 是呀
+08:08:10	 From 合言 柴 : 还不上课呀
+08:08:13	 From Minchiuan Gao : 大家都预习了吗？
+08:08:25	 From Minchiuan Gao : 稍等一下别的同学
+08:08:26	 From Minchiuan Gao : 现在人有点少
+08:08:27	 From 李鹏彦 : 那...现在预习一下吧~
+08:08:36	 From yu ma : 稍微看了一下下
+08:09:04	 From Ruixiang Ma : 高sir  NNML中映射层怎么理解啊
+08:10:05	 From Ruixiang Ma : 2.1 Feedforward Neural Net Language Model (NNLM)The probabilistic feedforward neural network language model has been proposed in [1]. It consistsof input, projection, hidden and output layers. At the input layer, N previous words are encodedusing 1-of-V coding, where V is size of the vocabulary. The input layer is then projected to aprojection layer P that has dimensionality N × D, using a shared projection matrix. As only Ninputs are active at any given time, composition of the projection layer is a relatively cheap operation.
+08:10:35	 From Ruixiang Ma : 希望您待会将embding捎带讲一下  
+08:10:57	 From Ruixiang Ma : 希望您待会儿讲embding捎带串一下  
+08:11:50	 From ryne : 1
+08:11:51	 From LI HUA : 1
+08:11:51	 From 杨诗吟 : 1
+08:11:53	 From 伍志恒 : 1
+08:11:54	 From hc : 1
+08:11:54	 From xiaoyajing001 : 1
+08:11:55	 From KwoIValIYYpLL/GzMuC/Gg== : 1
+08:11:57	 From yu ma : 1
+08:11:57	 From 萧磊 : 1
+08:11:59	 From 邵兵兵 : 1
+08:12:18	 From 伍志恒 : 春困了 之前起得早
+08:12:39	 From Christopher_luole : 1
+08:13:02	 From 萧磊 : 背景音乐好吵
+08:13:09	 From 萧磊 : 老师的声音听不清楚
+08:13:22	 From yu ma : 没有音乐了
+08:13:23	 From ryne(陈攀) : 0
+08:13:25	 From 萧磊 : 是就我有这个问题吗？
+08:13:27	 From HY : No
+08:13:27	 From 王近亲 : 你自己电脑的BGM把
+08:13:30	 From 杨诗吟 : 没有音乐了
+08:13:31	 From yu ma : 估计是
+08:13:31	 From xujie : 你幻听了
+08:13:32	 From HY : 你自己的把
+08:13:54	 From 萧磊 : sorry
+08:14:05	 From 萧磊 : 是我设备问题
+08:14:11	 From 萧磊 : 已解决
+08:14:22	 From 李鹏彦 : 刚才应该是有人没关麦啸叫了吧
+08:14:23	 From 合言 柴 : 声音没问题啊
+08:16:57	 From 王近亲 : 人工智能的经典方法
+08:20:18	 From HY : 逻辑不够优雅
+08:21:08	 From Ruixiang Ma : 新华字典
+08:22:50	 From Liz Chen : 封闭开发
+08:22:56	 From 王近亲 : 对的
+08:23:04	 From 王近亲 : 前面好好做，后面坑就少了
+08:29:33	 From xiaoyajing001 : 是的
+08:32:17	 From Liz Chen : 西瓜书？
+08:32:22	 From ryne(陈攀) : tensorflow 和 pytorch 作为新手怎么选择？
+08:32:37	 From Liz Chen : 。。。
+08:32:43	 From Liz Chen : 直接上
+08:32:58	 From luoqi : hands on 出第二版了，对接tf2
+08:34:46	 From Ruixiang Ma : 我看过  入门扫盲 
+08:35:01	 From yu ma : 我也看了 有些看不懂
+08:35:17	 From yu ma : 然后放弃了
+08:35:46	 From 青风 : 对对对
+08:35:47	 From Ruixiang Ma : 对
+08:36:00	 From Liz Chen : 嗯 是
+08:36:02	 From Charlene Chen : 有有有
+08:36:07	 From Ruixiang Ma : 决策树看完 都找这个包都差点没找到
+08:36:43	 From ryne(陈攀) : 那动物书值得看吗？
+08:36:48	 From Liz Chen : 挺值得
+08:37:13	 From Liz Chen : 完了实用
+08:38:28	 From 杨奕康 : 周志华 主要做的好像就是 随机森林。。
+08:38:53	 From HY : Deep Random Forest
+08:39:11	 From ryne(陈攀) : 不过其实枯燥的看书真的很难看进去。。。还是结合具体项目看理论效率比较高点
+08:39:25	 From Ruixiang Ma : 、
+08:41:03	 From Ruixiang Ma : 斯坦福算法设计值得看
+08:41:30	 From 青风 : 那得倒着背
+08:41:39	 From 萧磊 : 哈哈，我试过
+08:45:21	 From ryne(陈攀) : 翻译背锅。。。
+08:45:46	 From xiaoyajing001 : 是老师水平太高了
+08:46:00	 From 李鹏彦 : 是老师水平太高了
+08:46:19	 From 陈芊璇 : 傻逼思维害人
+08:46:32	 From 李鹏彦 : 0.0
+08:47:09	 From 李鹏彦 : 刚下单这本。。hhh
+08:47:29	 From 杨诗吟 : 2333
+08:47:54	 From HY : 开始请不听了
+08:49:48	 From Minchiuan Gao : 第一目标： 二极管 -> 能运行程序的机器
+08:50:02	 From Minchiuan Gao : 01010101代码
+08:50:39	 From 杨奕康 : 先拜一下作者
+08:50:40	 From Minchiuan Gao : 第二部分：0101010代码 -> 操作系统（计算机高级语言，计算机图形绘制，计算机作业调度）
+08:51:01	 From Christopher_luole : haha
+08:51:01	 From 青风 : 666
+08:51:14	 From 李鹏彦 : 第二个还行呀
+08:51:21	 From 杨奕康 : 发际线有的救。
+08:52:15	 From 陈芊璇 : 很 究竟 的一门课  （太棒了
+08:52:33	 From 萧磊 : 学院派和实战派的区别呀
+08:52:41	 From Minchiuan Gao : Build a Modern Computer from First Principles: From Nand to Tetris ： Part-II
+08:53:07	 From Minchiuan Gao : 理论上实践和理论没有区别 但实践上实践和理论区别极大
+08:53:55	 From 李鹏彦 : 1
+08:54:08	 From vi n b er t : 时间都是挤出来的，能不能多讲技术啊，谢谢
+08:54:15	 From 陈芊璇 : 互为因果呀
+08:54:44	 From 萧磊 : 背景知识也很重要
+08:54:56	 From luoqi : 很水的博士怎么了？
+08:55:04	 From luoqi : 没说完。。
+08:55:09	 From 萧磊 : 特别是对基础不大好的
+08:55:34	 From ding : 心静下来，好好听
+08:55:35	 From 陈芊璇 : 好，以后看书前先看看实战作品
+08:56:34	 From xiaoyajing001 : 我也想听听老师说水的博士
+08:57:19	 From vi n b er t : 花钱来听八卦。
+08:57:46	 From 李鹏彦 : 学习不能急功近利
+08:58:49	 From yu ma : 老师也有教学任务 给我们讲这么多资料还不是花时间
+08:59:25	 From xiaoyajing001 : 没有一句是八卦
+08:59:26	 From vi n b er t : 好吧，你们都很有钱很有时间
+08:59:29	 From 孔庆超_上海 : 老师，咱们讲完课程内容再说这些吧，担心后面时间不够
+08:59:45	 From 萧磊 : 保持课堂安静吧，有什么问题下来私信交流或反馈意见
+09:00:00	 From Minchiuan Gao  to  vi n b er t (Privately) : 同学你是？
+09:00:05	 From Liz Chen : (嗯，9494）好的
+09:00:20	 From 李鹏彦 : 老师自然会安排时间，别影响大家听课
+09:00:56	 From vi n b er t : 我工作两年了
+09:01:07	 From Ruixiang Ma : 我工作4年了
+09:01:34	 From HY : 还有4天 我就满三年了
+09:01:46	 From Ruixiang Ma : 我觉得老师在讲方法，授人渔
+09:01:46	 From 杨松 : 我觉得讲的非常好
+09:01:50	 From 杨松 : 开眼界了
+09:01:55	 From xiaoyajing001 : 同意
+09:02:02	 From Ruixiang Ma : 同意
+09:02:07	 From yu ma : 1
+09:02:08	 From qiaow : 这样挺好的 开拓一下 别功利 越是工作领域越窄
+09:02:11	 From 李鹏彦 : 半年时间就入门一个行业 我觉得时间还算很可观吧
+09:02:24	 From KwoIValIYYpLL/GzMuC/Gg== : 学习方法比知识更重要，老师现在讲的就是如何去学习，如何查找资料。
+09:02:26	 From Liz Chen : （没了解清楚冒然评价不好 真的）
+09:02:28	 From sunny : 退钱去吧
+09:02:32	 From 萧磊 : 好了
+09:02:34	 From 萧磊 : 保持安静
+09:02:38	 From 李鹏彦 : 老师继续讲课吧
+09:02:38	 From ryne(陈攀) : 众口难调。。是这样的
+09:02:39	 From 李鹏彦 : 别被影响了
+09:02:39	 From vi n b er t : OK
+09:02:40	 From xujie : 好了
+09:02:46	 From 简畅丽 : 1
+09:02:48	 From Christopher_luole : OK了
+09:03:00	 From 萧磊 : 下来后，我们来交流。不要影响课堂秩序，收到回复1
+09:03:01	 From 萧磊 : 1
+09:03:01	 From 李鹏彦 : 这个图很关键呀
+09:03:05	 From HY : 1
+09:03:06	 From yu ma : 1
+09:03:10	 From xinwei : 1
+09:03:19	 From xiaoyajing001 : 大学老师不见得有高老师的水平
+09:12:20	 From 萧磊 : 词组
+09:14:21	 From 萧磊 : 1
+09:14:22	 From Liz Chen : 语气是  很生气  嗯
+09:15:27	 From HY : 意图识别？
+09:16:47	 From 李鹏彦 : 阅读理解...
+09:17:45	 From 李鹏彦 : 初中阅读理解
+09:17:49	 From Liz Chen : 综合理解
+09:17:51	 From Liz Chen : 不行
+09:18:26	 From 孔庆超_上海 : 前段时间刚有个小任务需要做摘要提取
+09:19:08	 From 萧磊 : 这个棒
+09:20:05	 From liang : “你知不知道我很生气？” 应该是有种语义，机器怎么识别“语气”， 是不是就是语义分析的短板～高老师
+09:20:12	 From liang : 两种
+09:23:11	 From 王近亲 : 数据清洗
+09:24:23	 From Liz Chen : 实际上的进步不大？好吧
+09:25:03	 From 李鹏彦 : 所以这些问题就是工作中要做的事情？
+09:25:47	 From Liz Chen : 非传统哈哈
+09:27:11	 From liang : 一种语义是很生气， 另一种是简单的陈述：问你知不知道！计算机是没有感情的。它怎么能识别出语气呢？这是不是仅仅在“语义分析”里是做不到的，所以还要借肋其它的分析（解释一下我的问题～）
+09:27:46	 From 萧磊 : 想起机械姬
+09:28:12	 From Liz Chen : （听完课问吧，说不定你的问题有解决的）
+09:29:35	 From 李鹏彦 : DFS
+09:32:34	 From 李鹏彦  to  Minchiuan Gao (Privately) : 老师 第一节课的邮件您会回复么0.0
+09:32:47	 From Minchiuan Gao  to  李鹏彦 (Privately) : 回复的早的同学
+09:32:51	 From Minchiuan Gao  to  李鹏彦 (Privately) : 我都已经回复了
+09:32:58	 From Minchiuan Gao  to  李鹏彦 (Privately) : 你的可能还没到
+09:33:08	 From Minchiuan Gao  to  李鹏彦 (Privately) : 我今天先回复你的哈
+09:33:17	 From 李鹏彦  to  Minchiuan Gao (Privately) : 额。。哈哈 好的呀~
+09:33:30	 From 李鹏彦  to  Minchiuan Gao (Privately) : 谢谢老师啦！
+09:33:59	 From 李鹏彦  to  Minchiuan Gao (Privately) : 老师咱们nlp一共有多少同学啊
+09:35:10	 From 李鹏彦  to  Minchiuan Gao (Privately) : 我其实想知道搭建的作业完成度...因为我这儿两门辅修课还没看呢 有点担心自己和同学们进度差开......
+09:35:22	 From 李鹏彦  to  Minchiuan Gao (Privately) : 搭建->大家
+09:41:25	 From 萧磊 : 弱弱的问一句，有没有在北京的童鞋，而且愿意交流的。想线下组个交流组，讨论作业遇到的问题，知识相互补充之类。提供免费咖啡和Wi-Fi哈
+09:41:53	 From Liz Chen : 哪个区
+09:42:07	 From 萧磊 : 朝阳区
+09:42:11	 From 杨松 : 还有这待遇
+09:42:30	 From Liz Chen : deal
+09:42:36	 From Liz Chen : 有机会找你
+09:42:43	 From 萧磊 : 👌
+09:42:52	 From xujie : 远了点
+09:43:16	 From 萧磊 : 没事呀，我跨区找你也行。@xujie
+09:43:19	 From 杨松 : 再凑一个人，讨论累了斗地主
+09:43:50	 From 萧磊 : @杨松，这个可以有
+09:44:01	 From Liz Chen : 交流最好有focus
+09:44:10	 From Liz Chen : 玩就算了
+09:44:23	 From 萧磊 : 嗯，主要就是一起集中精力解决作业。
+09:44:52	 From 杨松 : 精神上支持你们
+09:45:45	 From 萧磊 : 这样进度快，一个人经常会被一个小问题卡住。无形中拖了很多时间。实地小组的话，对于基础弱一点的遇到问题能迅速得到反馈
+09:45:50	 From Minchiuan Gao  to  李鹏彦 (Privately) : hi 现在有将近80个人。 然后其中约1/3的同学3次作业都完成了
+09:46:03	 From Liz Chen : 不是有助教么
+09:46:19	 From 李鹏彦  to  Minchiuan Gao (Privately) : 嗯嗯 get了 那我的努力了
+09:46:36	 From Liz Chen : 你这搞得  跟助攻似的
+09:46:37	 From 青风 : 诶呦
+09:46:37	 From 萧磊 : 可能我基础太渣，问题太多
+09:47:09	 From Liz Chen : 越基础的问题  解决的人越多  （遇到了别怕，多找找就行了
+09:47:41	 From Dong Zhao : 还没开课吧？
+09:47:47	 From Dong Zhao : 不是我的问题吧
+09:47:49	 From Liz Chen : 一分钟
+09:47:50	 From 萧磊 : 还没
+09:47:57	 From Dong Zhao : 谢谢
+09:48:04	 From Minchiuan Gao : 开始吧~
+09:48:06	 From Minchiuan Gao : 😀
+09:48:16	 From Minchiuan Gao : 大家回来了吗？
+09:48:21	 From 杨松 : 1
+09:48:21	 From 李鹏彦 : 1
+09:48:22	 From ryne(陈攀) : 1
+09:48:26	 From Minchiuan Gao : 好滴
+09:48:26	 From Liz Chen : 1
+09:48:26	 From KwoIValIYYpLL/GzMuC/Gg== : 1
+09:48:28	 From 杨诗吟 : 1
+09:48:29	 From lucyyang : 1
+09:48:31	 From 伍志恒 : 1
+09:48:31	 From 萧磊 : 1
+09:48:39	 From Liz Chen : （here we go :-D
+09:49:28	 From Christopher_luole : 1
+09:55:00	 From heyangm : 我要去当押运员。。
+09:55:01	 From 李鹏彦 : 。
+09:55:06	 From Liz Chen : 提高生产力哈哈哈
+09:55:13	 From mozhiwen : 这个我记得 哈哈哈
+09:55:57	 From Liz Chen : 食物的品质？也要考虑吧
+09:56:00	 From ryne(陈攀) : 隐藏VIP。。。
+09:56:27	 From Liz Chen : 之前看别人的商业BP  了解一些
+09:56:45	 From 李鹏彦 : 不应该反过来么- -
+09:56:58	 From 王近亲 : 反过来就打击积极性了呀
+09:57:13	 From Liz Chen : 评价机制
+09:57:15	 From ryne(陈攀) : 优胜劣汰。。
+09:57:16	 From 萧磊 : 哈哈，我要做服务小哥去
+09:57:23	 From Liz Chen : 平台类的
+09:57:23	 From KwoIValIYYpLL/GzMuC/Gg== : 都是套路啊
+09:57:30	 From ryne(陈攀) : 套路好深。。。
+09:57:35	 From 青风 : 都是东哥的好兄弟
+09:57:36	 From 李鹏彦 : 勤奋的做更难的 懒惰的分配简单的调动积极性
+09:57:38	 From xiaoyajing001 : 太有才了  偷偷奖励勤奋努力的人
+09:57:44	 From emi : 哈哈
+10:01:34	 From Liz Chen : 把  length 和 price 拟成方程，然后和实际需要
+10:01:41	 From Liz Chen : 最优化
+10:02:00	 From Liz Chen : 好的  不好意思
+10:03:35	 From Chenn3 : 迭代
+10:03:47	 From xujie : 递归
+10:03:47	 From 李鹏彦 : 递归
+10:04:11	 From 杨奕康 : 可以递归 + memo--
+10:05:53	 From 李鹏彦 : 存个字典length-max_price
+10:06:00	 From Liz Chen : 把5 拆分  ，每个部分的权重不一样
+10:06:01	 From Liz Chen : 对
+10:08:58	 From 李鹏彦 : 从0算到目标值字典里没有就加k-v字典里有就直接遍历计算最大值，算完之后加到字典里
+10:11:23	 From xiaoyajing001 : 老师代码字体能调大点么？
+10:11:36	 From xiaoyajing001 : 谢谢!
+10:11:38	 From Liz Chen : 很清楚了
+10:11:46	 From 自己 : OK
+10:11:52	 From yu ma : 大了
+10:11:54	 From 萧磊 : 很好了
+10:11:55	 From 李鹏彦 : 已经很大了。。
+10:12:08	 From xiaoyajing001 : 可以啦
+10:12:12	 From ryne(陈攀) : 已经可以了，。再大只能换显示器了
+10:12:21	 From LI HUA : 可以看清了
+10:16:47	 From 孔庆超_上海 : 1
+10:17:25	 From Liz Chen : 是不是只算一半就可以了
+10:17:49	 From 王近亲 : 么得退出
+10:20:24	 From BiYun Huang : 为什么是p[n]+blabla...不是p[n],(逗号)blabla...
+10:20:49	 From Liz Chen : 后者是列举
+10:20:49	 From xujie : 列举不了
+10:20:54	 From Liz Chen : 前者  不是
+10:21:52	 From 李鹏彦 : 大点就很慢了
+10:22:11	 From Liz Chen : 要把每种可能都算一遍呗
+10:22:15	 From 李鹏彦 : 递归会计算很多已有的值
+10:22:26	 From 李鹏彦 : 已计算的值
+10:22:26	 From 王近亲 : 每次都要算之前算过的东西
+10:22:56	 From Liz Chen : 嗯
+10:23:54	 From qiaow : 阶乘
+10:25:09	 From 伍志恒 : 幂指数
+10:26:54	 From Christopher_luole : OK
+10:32:12	 From Liz Chen : 信号问题吧
+10:33:02	 From 杨奕康 : memoization
+10:33:04	 From Liz Chen : 有点蠢。全算
+10:33:06	 From Liz Chen : 嗯
+10:33:55	 From zjq : 需要剪枝
+10:40:37	 From 李鹏彦 : 对象？
+10:40:42	 From Ruixiang Ma : 函数指针
+10:42:04	 From HY : 函数式编程？
+10:45:17	 From 王近亲 : 就变成了一个函数
+10:45:48	 From xujie : 闭包
+10:45:51	 From xiaoyajing001 : 晕了
+10:45:59	 From 李鹏彦 : 这样的好处是？
+10:46:20	 From ZhiYuan Zhang : 同问好处
+10:47:25	 From 王近亲 : 一个通用的函数增加功能器
+10:47:49	 From 孔庆超_上海 : 类似java里的注解
+10:48:14	 From 李鹏彦 : 我用过@staticmethod hhh
+10:48:16	 From 王近亲 : 像一顶好看的帽子，给所有的函数都可以戴上
+10:48:32	 From Ruixiang Ma : 666 长见识
+10:48:48	 From 伍志恒 : 封装把？
+10:49:28	 From 邵兵兵 : 减少工作量
+10:49:30	 From wy : 不重复造轮子
+10:50:13	 From Liz Chen : 傻叉了。。。
+10:50:53	 From 李鹏彦 : 所以加200个装饰器去改？
+10:51:06	 From 王近亲 : 一个装饰器，去修改200个函数
+10:51:11	 From HY : 一个装饰器
+10:51:16	 From 王近亲 : 不是修改是修饰
+10:51:43	 From wy : 一个装饰器作用在N个函数上
+10:51:45	 From 李鹏彦 : 确实非常有用呀！
+10:52:27	 From Liz Chen : 体会到了蟒蛇的好处
+10:53:25	 From wy : Func.__name__ 什么意思呀？
+10:53:54	 From 邵兵兵 : 函数名
+10:53:56	 From HY : 函数名
+10:54:00	 From wy : 谢谢
+10:55:42	 From HY : 辅助性的~
+10:55:56	 From 王近亲 : 多个参数吗
+10:56:15	 From HY : 多参数 可解析~
+10:56:29	 From wy : 多个值（元祖），和多个值（字典）
+10:58:09	 From 李鹏彦 : 返回装饰器的用法
+11:01:09	 From 王近亲 : 内存的换页算法
+11:02:13	 From 孔庆超_上海 : 牛
+11:02:25	 From Liz Chen : 先算简单的，再算复杂的，前面简单的算过后面不算。
+11:04:15	 From 李鹏彦 : 内存很关键
+11:04:43	 From Liz Chen : overlap  过度覆盖呀
+11:05:18	 From Liz Chen : 把 fixed 转变为 flexible
+11:05:45	 From Liz Chen : 一直check，好吧
+11:08:01	 From 孔庆超_上海 : 这节课引导的很好，并且90分钟休息15分钟，注意力能够一直保持
+11:08:12	 From 萧磊 : 嗯嗯
+11:08:17	 From 萧磊 : 我也有这感觉
+11:08:18	 From LI HUA : 1
+11:08:21	 From 萧磊 : 1
+11:08:25	 From wy : 1
+11:08:26	 From Liz Chen : 其实四小时连着也不错，更投入
+11:08:27	 From 李鹏彦 : 有点意犹未尽
+11:08:38	 From 李鹏彦 : 对，四小时也很好
+11:15:44	 From Ruixiang Ma : 我是仙人掌  适应能力强，事儿不多
+11:16:03	 From Ruixiang Ma : 怎么都好(#^.^#)
+11:21:21	 From heyangm :    开始了吗
+11:21:32	 From Minchiuan Gao : 23开始
+11:24:23	 From Minchiuan Gao : 开始吧
+11:24:24	 From Minchiuan Gao : 😀
+11:24:25	 From Liz Chen : 已经来了
+11:24:25	 From 孔庆超_上海 : 1
+11:24:27	 From 李鹏彦 : 1
+11:24:28	 From Ruixiang Ma : 1
+11:24:29	 From 杨诗吟 : 1
+11:24:32	 From Liz Chen : :-D
+11:24:33	 From 萧磊 : 1
+11:24:45	 From yu ma : 1
+11:24:49	 From HY : 哈哈哈
+11:24:52	 From 李鹏彦 : 28周也可以
+11:24:52	 From 萧磊 : ok
+11:24:54	 From heyangm : 哈哈哈
+11:24:57	 From 萧磊 : 38
+11:24:58	 From HY : 上一辈子吧
+11:24:59	 From lucyyang : 1
+11:25:01	 From ZhiYuan Zhang : /滑稽
+11:27:34	 From 李鹏彦 : if i==0: return price[i]
+11:28:31	 From xiaoyajing001 : 递归
+11:28:51	 From 孔庆超_上海 : 遇到递归就头疼
+11:29:01	 From xiaoyajing001 : 我也是 递归晕了
+11:29:08	 From 王近亲 : 你要想学会递归，你就要先学会递归
+11:29:15	 From 伍志恒 : 递归就是逻辑太精髓了
+11:29:26	 From 李鹏彦 : cs101---拥有无穷的力量
+11:34:37	 From 王近亲 : append
+11:34:44	 From Liz Chen : 没有显示过程
+11:34:49	 From xiaoyajing001 : 存下来
+11:34:51	 From 李鹏彦 : 不是算值么
+11:35:39	 From 孔庆超_上海 : return那里不用加[]
+11:35:51	 From 李鹏彦 : solution[left] + solution[right]
+11:35:55	 From 唐观根 : 最后一行return
+11:35:56	 From 唐观根 : 不要[]
+11:36:32	 From 李鹏彦 : parse_solution[left, solution[left]] + parse_solution[right, solution[right]]
+11:36:34	 From 唐观根 : 第一行return  要[]
+11:37:38	 From 李鹏彦 : 这个parse函数的功能不是计算值么，还是说统计切分的每个小块的大小的列表？
+11:37:49	 From xujie : 加right上，后面不加
+11:37:51	 From 唐观根 : 后面的return不要[]
+11:38:28	 From 伍志恒 : return后面不用[]
+11:38:30	 From Ruixiang Ma : [].append(parse_solution)
+11:38:50	 From 李鹏彦 : 先确定这个函数是什么功能！
+11:38:53	 From 唐观根 : left 也不要【】
+11:38:53	 From Ruixiang Ma : return  (func(a),func(b))
+11:38:53	 From HY : [parse_solution(left, revenue_solution), parse_solution(right, revenue_solution)]
+11:38:55	 From HY : ?
+11:38:55	 From 杨松 : return 前面append后面吧
+11:39:09	 From 合言 柴 : right加上【】，return那里不要【】
+11:39:19	 From 孔庆超_上海 : 老师晕了，哈哈
+11:39:22	 From 李鹏彦 : 先确定这个函数是什么功能！
+11:39:36	 From 伍志恒 :     if not_cut(left): return [right]        return parse_solution(left, revenue_solution) + parse_solution(right, revenue_solution)
+11:40:01	 From 唐观根 : reutrn rightreturn parse(left) + parse(right)
+11:40:38	 From HY :  left, right = revenue_solution[target_length]        if not_cut(left):return [right]    return parse_solution(left, revenue_solution) + parse_solution(right, revenue_solution)
+11:40:54	 From 李鹏彦 : left就是price里的
+11:41:40	 From 伍志恒 : 多了一层list
+11:42:58	 From xiaoyajing001 : 老师平时写程序，也会拿来一个以前写的解决类似问题的程序，修改修改么？还是完全重写。
+11:43:18	 From Liz Chen : 魔改
+11:43:59	 From HY : 如果左侧不能切割，右侧直接返回如果能切割，则对左右都切割，然后将其合并
+11:47:34	 From Minchiuan Gao : Liz Chen
+11:47:45	 From 孔庆超_上海 : 1
+11:47:46	 From HY : 1
+11:47:48	 From 萧磊 : 1
+11:47:54	 From yu ma : 1
+11:48:56	 From 杨奕康 : 刚做过edit distance算法题..
+11:51:47	 From 萧磊 : 原创
+11:51:50	 From xiaoyajing001 : 知网查重
+11:52:30	 From Liz Chen : 声音花了
+11:52:34	 From 李鹏彦 : 卡了？
+11:52:34	 From xiaoyajing001 : 卡了
+11:52:37	 From ryne(陈攀) : 卡了。。。
+11:52:38	 From yu ma : 1
+11:52:40	 From xiaoyajing001 : 卡了
+11:52:40	 From 萧磊 : 卡了
+11:52:41	 From 青风 : 电音rap
+11:52:41	 From Christopher_luole : OK
+11:52:43	 From zjq : 还以为是我自己的问题
+11:52:44	 From Chenn3 : 听不清了
+11:52:50	 From yu ma : 好了现在
+11:52:56	 From Liz Chen : 好了现在嗯
+11:52:56	 From 萧磊 : 现在好了
+11:53:00	 From zjq : 现在好了
+11:53:03	 From 李鹏彦 : 卡了的声音好逗呀
+11:53:13	 From xiaoyajing001 : 卡了
+11:53:25	 From 孔庆超_上海 : 又卡了
+11:53:25	 From 萧磊 : 现在又卡了
+11:53:25	 From ryne(陈攀) : 手机网的问题吧
+11:53:25	 From Ruixiang Ma : 卡了
+11:53:25	 From zjq : 又开始卡了
+11:53:25	 From Chenn3 : 没声音了
+11:53:25	 From Ruixiang Ma : 弹簧音
+11:53:25	 From Liz Chen : 要不退掉
+11:54:42	 From Ruixiang Ma : beijing 
+11:54:44	 From xiaoyajing001 : 好了
+11:54:44	 From zjq : 1
+11:54:45	 From 萧磊 : 1
+11:54:46	 From Liz Chen : 好
+11:54:47	 From Ruixiang Ma : 1
+11:54:47	 From 李鹏彦 : 可以了
+11:54:48	 From 杨诗吟 : 1
+11:54:48	 From 余亦阳 : 1
+11:54:56	 From Chenn3 : 从beijing 那里回滚下吧
+11:55:00	 From 李鹏彦 : biejing
+11:55:24	 From xiaoyajing001 : 上一张没听到
+11:55:26	 From zjq : 老师刚才这段重新讲吧
+11:55:33	 From xiaoyajing001 : 就是这
+11:56:11	 From ryne(陈攀) : 1
+11:56:13	 From xiaoyajing001 : 用过
+11:56:15	 From 李鹏彦 : 哈哈哈 纯拼音
+11:56:23	 From ryne(陈攀) : 智能双拼
+11:56:35	 From 伍志恒 : 智能abc
+11:57:16	 From ryne(陈攀) : 小学时候还要背五笔。。
+12:04:36	 From luoqi : https://web.stanford.edu/~jurafsky/slp3/slides/LM_4.pdf
+12:05:11	 From luoqi : 不对，出处应该是这里
+12:05:21	 From luoqi : https://web.stanford.edu/~jurafsky/slp3/slides/2_TextProc.pdf
+12:09:46	 From 李鹏彦 : 递归的结束
+12:11:26	 From 伍志恒 : arg
+12:11:27	 From Liz Chen : 嗯
+12:11:28	 From lucyyang : 知道
+12:11:28	 From 王近亲 : *arg
+12:11:28	 From gaokai : 1
+12:11:28	 From ryne(陈攀) : args
+12:11:30	 From Ruixiang Ma : *srg
+12:12:33	 From xiaoyajing001 : 存下来
+12:12:34	 From 王近亲 : 记录
+12:12:37	 From 萧磊 : solution
+12:17:51	 From 孔庆超_上海 : 好像并没有增加
+12:21:53	 From 杨诗吟 : beijing 到 beijin中间这几步是干什么的呀？为什么每一步都是DEL g ？
+12:22:04	 From 李鹏彦 : 错误判断的那个分支
+12:22:25	 From xujie : 是其他步骤
+12:22:27	 From 李鹏彦 : 因为min里的每个分支都是需要计算的，就都有打印了
+12:22:33	 From xujie : 不需要的
+12:22:54	 From 孔庆超_上海 : 老师，ADD 没看懂，好像并没有做add
+12:23:19	 From 李鹏彦 : 错了。。。
+12:23:38	 From 李鹏彦 : 不过意思到了
+12:24:04	 From Liz Chen : 嗯
+12:24:07	 From 李鹏彦 : eye和bye
+12:25:28	 From 李鹏彦 : 这块很难讲是真的，不好表述，除非再改改代码，能更好呈现
+12:27:13	 From 陈芊璇 : 不断查表  get到了
+12:28:26	 From 李鹏彦 : 其实add是打印，代码直接运行的是delete str2的尾了
+12:28:26	 From Ruixiang Ma : F加到哪了
+12:28:37	 From 陈芊璇 : 最后一步 亲
+12:33:48	 From 李鹏彦 : 。。
+12:33:51	 From 陈芊璇 : (⊙ˍ⊙)
+12:33:55	 From 杨奕康 : 1
+12:33:56	 From 陈芊璇 : 很简单好吧
+12:34:01	 From 伍志恒 : 前端就写html嘛？
+12:34:27	 From 李鹏彦 : 新学的话好像不简单呀...
+12:34:28	 From zjq : qt，wpf这种可以吗
+12:34:29	 From 唐观根 : 看起来很高级
+12:34:54	 From 杨诗吟 : 天呀有点害怕
+12:34:55	 From 陈芊璇 : (⊙ˍ⊙) 有些都忘了。
+12:34:57	 From Ruixiang Ma : 不知道html怎么和后台connect的
+12:34:59	 From xiaoyajing001 : 老师能提供学习资料，或者推荐网页么
+12:36:14	 From 杨松 : ok 
+12:36:14	 From 孔庆超_上海 : 1
+12:36:15	 From gaokai : 1
+12:36:16	 From LI HUA : 好的
+12:36:16	 From 萧磊 : 1
+12:36:17	 From xiaoyajing001 : 1
+12:36:18	 From 伍志恒 : 1
+12:36:18	 From Ruixiang Ma : 1
+12:36:20	 From 陈芊璇 : <(￣︶￣)>
+12:36:25	 From Christopher_luole : 多谢老师 
+12:36:26	 From 杨诗吟 : 老师辛苦了~
+12:36:26	 From 邵兵兵 : 1
+12:36:26	 From 陈芊璇 : 老师辛苦了
+12:36:27	 From LI HUA : 老师再见
+12:36:27	 From gaokai : 老师辛苦了
+12:36:28	 From 萧磊 : 谢谢老师
+12:36:30	 From xiaoyajing001 : 老师再见
+12:36:31	 From 萧磊 : 老师辛苦了
+12:36:31	 From 杨奕康 : 老师再见
+12:36:32	 From HY : 辛苦
