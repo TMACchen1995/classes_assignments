@@ -18,7 +18,7 @@ df.head()
 df = df.drop(df.columns[0], axis=1)
 df.head()
 
-model_LinearSVC = joblib.load('LinearSVC.pkl')
+model_LogisticRegression = joblib.load('model_LogisticRegression.pkl')
 
 while True:
     input_content = input(
@@ -37,19 +37,20 @@ while True:
         num = test_indices[input_content][0]
         print(num)
         print(df['content'].iloc[num])
-        res = int(model_LinearSVC.predict(X_test[[input_content]]))
+        res = int(model_LogisticRegression.predict(X_test[[input_content]]))
 
         if res == 1:
             print("Predict answer: the text you choosed was released by '新华社' or '新华网'")
             print("The ture label is {}".format(df['label'].iloc[num]))
             print('\n')
 
+
         elif res == 0:
             print("Predict answer: the text you choosed was released by other organization")
             print("The ture label is {}".format(df['label'].iloc[num]))
             print('\n')
 
-y_pred = model_LinearSVC.predict(X_test)
+y_pred = model_LogisticRegression.predict(X_test)
 
 candidate_news = []
 for index, (y_hat, y) in enumerate(zip(y_pred, df['label'].values[test_indices])):
@@ -76,3 +77,101 @@ plt.show()
 from sklearn import metrics
 
 print(metrics.classification_report(df['label'].values[test_indices], y_pred, labels=[0, 1]))
+
+from scipy.spatial.distance import cosine
+
+def cosine_distance(list1, list2):
+    return cosine(list1, list2)
+
+#在所有的测试集文本中，逐一和candidate_news中的元素计算余弦值，并排序，分别取最小的五个文本。
+sorted_res = []
+for i in range(len(candidate_news)):
+    sorted_res.append(sorted(list(range(len(test_indices))), key = lambda x:cosine_distance(
+                               list(X_test[x]), list(X_test[candidate_news[i]])))[1:5])
+
+cosine_res = []
+for i in range(len(candidate_news)):
+    cosine_res.append(cosine_distance(
+        list(X_test[candidate_news[i]]),list(X_test[sorted_res[i][0]])
+    ))
+
+sorted_cosine_res = sorted(cosine_res)
+
+sorted_cosine_res  #最小的余弦值依然比较大。
+
+#获得最小余弦值的candidate_res也即sorted_res的下标。得到余弦值最小的一对。
+for index, cosine_value in enumerate(cosine_res):
+    if cosine_value == sorted_cosine_res[0]:
+        a=index
+
+print(candidate_news[a],sorted_res[a],sorted_cosine_res[a])
+
+cosine_distance(list(X_test[candidate_news[a]]),list(X_test[sorted_res[a][0]]))
+
+print(candidate_news[a],sorted_res[a][0])
+
+#果然即使是余弦值最小的两个文本，看起来也不是很相似
+
+df['content'].values[candidate_news[a]]
+
+df['content'].values[sorted_res[a][0]]
+
+
+#orginal_news_2太长了，再计算edit_distance时超过了计算次数的限制，所以只取文本的前200个字符。
+original_news_1 = df['content'].values[candidate_news[a]].replace(' ', '')
+original_news_2 = df['content'].values[sorted_res[a][0]].replace(' ', '')[:200]
+
+#Edit Distance
+from functools import lru_cache
+
+
+@lru_cache(maxsize=2 ** 12)
+def edit_distance(string1, string2):
+    if len(string1) == 0: return (len(string2))
+    if len(string2) == 0: return (len(string1))
+
+    tail_s1 = string1[-1]
+    tail_s2 = string2[-1]
+
+    min_edit_distance = min([
+
+        edit_distance(string1[:-1], string2) + 1,  # situation 1, string1 del tail
+        edit_distance(string1, string2[:-1]) + 1,  # situation 2, string1 add the tailof string2
+        edit_distance(string1[:-1], string2[:-1]) + (0 if tail_s1 == tail_s2 else 2)  # situation 3
+
+    ])
+
+    return min_edit_distance
+
+edit_distance(original_news_1,original_news_2)
+
+
+# Solution Parse to Edit-Distance, copied from wangshilin.
+@lru_cache(maxsize=2 ** 10)
+def edit_distance_with_path(str1, str2):
+    if not len(str1): return [len(str2), ' ']
+
+    if not len(str2): return [len(str1), ' ']
+
+    tail1 = str1[-1]
+    tail2 = str2[-1]
+
+    _del = edit_distance_with_path(str1[:-1], str2)
+    _add = edit_distance_with_path(str1, str2[:-1])
+    _sub = edit_distance_with_path(str1[:-1], str2[:-1])
+    op_desc = {
+        "del": " Del {}".format(tail1),
+        "add": " Add {}".format(tail2),
+        "sub0": "",
+        "sub2": " Sub {}=>{}".format(tail1, tail2)
+    }
+    # [distance, operator]
+    operator = [
+        [_del[0] + 1, _del[1] + op_desc["del"]],
+        [_add[0] + 1, _add[1] + op_desc["add"]],
+        [_sub[0] + (0 if tail1 == tail2 else 2), _sub[1] + op_desc["sub" + ('0' if tail1 == tail2 else '2')]],
+    ]
+    min_op = min(operator, key=lambda x: x[0])
+    return min_op
+
+edit_distance_with_path(original_news_1,original_news_2)
